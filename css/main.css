@@ -150,6 +150,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--sun);outline-offset
 .areas a{background:#fff;border:1px solid var(--line);padding:14px 16px;border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;display:flex;justify-content:space-between;gap:8px}
 .areas a:after{content:"\2192";color:var(--blue)}
 .areas a:hover{border-color:var(--blue);color:var(--blue)}
+.areas.hoods{margin-top:0}
+.hood-h{margin:28px 0 12px;font-size:1.15rem}
 .ctaband{background:linear-gradient(160deg,var(--blue),var(--blue-d));color:#fff;padding:62px 0;text-align:center}
 .ctaband h2{color:#fff;margin-bottom:10px;font-size:clamp(1.7rem,3.4vw,2.4rem)}
 .ctaband p{color:#D6E5F8;font-size:17px;margin:0 auto 24px;max-width:640px}
